@@ -1,0 +1,304 @@
+body {
+	background-color: #eaeaea;
+}
+
+.wrapper {
+	margin: 0;
+	padding: 0;
+	background-color: #eaeaea;
+}
+
+.navbar {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-header {
+	width: 60px;
+	height: 50px;
+	background-image: url('../img/mountain.png');
+	background-size: cover;
+}
+
+.navbar-header:hover {
+	background-image: url('../img/mountain-hover.png');
+	background-size: cover;
+}
+
+.navbar img {
+	width: 60px;
+}
+
+#header {
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/header.png);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+}
+
+#shadow-box {
+	width: 100%;
+	height: 100%;
+	box-shadow: 0px 0px 25px #000;
+	position: relative;
+
+}
+
+#header-left-box {
+	height: 200px;
+	color: white;
+	display: flex;
+	justify-content: flex-start;
+	flex-flow: row wrap;
+	padding: 2% 0 0 2%;
+}
+
+#header-left-box span {
+	font-family: 'Pacifico';
+	font-size: 4em;
+	color: white;
+	text-shadow: 1px 2px #000;
+}
+
+
+blockquote {
+	font-family: 'Raleway';
+	font-size: 1.1em;
+	font-style: italic;
+}
+
+blockquote footer {
+	color: lightgrey;
+}
+
+#form-container{
+	position: absolute; 
+	bottom: 8px;
+	right: 16px;
+	font-family: 'Raleway';
+}
+
+textarea {
+	resize: none;
+}
+
+legend {
+	font-weight: 600;
+	text-align: center;
+	border-bottom: 1px solid rgba(999,999,999,0.3);
+}
+
+#form-container .fluid-container {
+	display: flex;
+}
+
+.well{
+	background-color: rgba(999,999,999,0.3);
+
+	border: 0;
+}
+
+.glyphicon .glyphicon-chevron-down {
+	font-size: 4em;
+}
+
+#arrow-container {
+	width: 80px;
+	height: 60px;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+#arrow-container span {
+	color: #d3d3d3;
+	font-size: 4em;
+	width: 100px;
+}
+
+.content .col-md-4 {
+	display: flex;
+	justify-content: center;
+	align-content: space-between;
+}
+
+.col-md-4 img {
+	max-height: 230px;
+}
+
+.col-md-4 .text {
+	padding-top: 20px;
+	width: 278px;
+}
+
+h5 {
+	margin: 0;
+	padding: 0;
+}
+
+.text p {
+	padding-top: 8px;
+	text-align: justify;
+
+}
+
+.content .row:nth-child(1) {
+	padding-top: 80px;
+}
+
+.content hr {
+	margin-top: 60px;
+	border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.video {
+	float: right;
+}
+
+.content2 {
+	height: 100%;
+	padding-top: 50px;
+}
+
+.video-photo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.video-photo img {
+	max-width: 229px;
+	border-radius: 200px;
+}
+
+.content2 hr {
+	margin-top: 60px;
+	border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+
+
+/*****		------		******
+****** 		FOOTER 		******
+******		------		******/
+
+
+#myFooter {
+	background-color: #373a48;
+	color: white;
+	margin-top: 60px;
+}
+
+#myFooter .footer-copyright{
+	background-color: #383737;
+	padding-top:3px;
+	padding-bottom:3px;
+	text-align: center;
+}
+
+#myFooter .footer-copyright p{
+	margin:10px;
+	color: #ccc;
+}
+
+#myFooter ul{
+	list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+
+}
+
+#myFooter h5{
+	font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter a{
+	color:#d2d1d1;
+	text-decoration: none;
+}
+
+#myFooter a:hover, #myFooter a:focus{
+	text-decoration: none;
+	color:white;
+}
+
+#myFooter .myCols{
+	text-align: center;
+}
+
+#myFooter .social-networks{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 38px;
+}
+
+#myFooter .social-networks a{
+    font-size: 32px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover{
+	text-decoration: none;
+
+}
+
+#myFooter .facebook:hover{
+	color:#0077e2;
+}
+
+#myFooter .linkedin:hover{
+	color:#3377B0;
+}
+
+#myFooter .twitter:hover{
+	color: #00aced;
+}
+
+@media screen and (max-width: 767px){
+	#myFooter {
+		text-align: center;
+	}
+}
+
+/** END FOOTER **/
+
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+#arrow-down:hover {
+	animation: bounce 1s;
+}
+
